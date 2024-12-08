@@ -9,3 +9,13 @@
 .p-1{
     padding: 1px;
 }
+
+.button{
+    width: 8vw;
+    height: 3vw;
+    text-align: center;
+    margin: 10px;
+    border-radius: 12px;
+    background-color: #121212
+    color(white)
+}

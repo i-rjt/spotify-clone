@@ -62,7 +62,7 @@
     width: 25vw;
 }
 .right{
-    width: 75px;
+    width: 75vw;
 }
 
 .rounded{
@@ -91,4 +91,11 @@
     height: 4vw;
     display: flex;
     align-items: center;
+}
+
+.right-header{
+    display: flex;
+    align-content: right;
+    position: relative;
+    flex-direction: row-reverse;
 }
