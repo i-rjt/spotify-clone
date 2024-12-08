@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+</head>
+
+<body>
+    <div class="container flex">
+        <div class="left border ">
+            <div class="logo invert"><img src="spotifylogo.svg" alt="" title="Spotify"></div>
+            <div class="home rounded">
+                <ul>
+                    <li><img class="invert" src="homeicon.svg" alt="">Home
+                    </li>
+                    <li ><form action="Get"> <input class="rounded" type="search" id="search" placeholder="search" style="align-items: center;align-content: left;width: 100px;"> <label for="search" ></label> </form>
+                    </li>
+                </ul>
+            </div>
+            <div class="library rounded" style="background-color: #121212;">
+                <div class="lib">
+                    <h4 style="display: flex;gap: 2%;padding: 10px;"><img class="invert" src="library.svg"><a href="/" style="text-decoration: none;color: white;"><span
+                            style="height: 6px;">Your Library</span></a></h4>
+
+                    <button class="rounded" style="width: 16vw;height: 3vw;text-align: center;margin: 10px;">Create
+                        Playlist</button>
+                    <div class="scroll">  
+                    <div class="scroll-item">  
+                            <ul>    
+                                    <li class="scroll-li">
+                                        <img class="invert" src="heart.svg" style="width: 40px;display: flex;" alt="">Item1
+                                    </li>
+                                    <li class="scroll-li">
+                                        <img class="invert"src="library.svg" style="width: 40px;display: flex;" alt="">Your Library
+                                    </li>
+                                </ul>
+                            </div>
+                       </div>
+                       </div>
+            </div>
+        </div>
+        <div class="right border">
+            Some text
+        </div>
+    </div>
+</body>
+
+</html>
