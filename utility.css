@@ -1,21 +1,58 @@
+.bg-black{
+    background-color: black;
+}
 
-.justify-center{
-    justify-content: center;
+.bg-brown{
+    background-color: #121212;
+}
+
+.invert{
+    filter: invert(1);
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-divide{
+    justify-content: space-between;
+}
+
+.flex-right{
+    display: flex;
+    align-items: center;
+}
+
+.flex-left{
+    display: flex;
+    align-items: flex-start;
+}
+
+.flex-center{
+    display: flex;
+    align-items: center;
+}
+
+.color{
+    color: white;
 }
 
 .m-1{
     margin: 1px;
 }
+
 .p-1{
     padding: 1px;
 }
 
-.button{
-    width: 8vw;
-    height: 3vw;
-    text-align: center;
-    margin: 10px;
-    border-radius: 12px;
-    background-color: #121212
-    color(white)
+.rounded{
+    border-radius: 7px;
+}
+
+.flex-col{
+    flex-direction: column;
+}
+
+.grid{
+    display: grid;
 }
