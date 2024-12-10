@@ -3,6 +3,13 @@
     padding: 0px;
     position:static;
 }
+.full-page{
+    width: 100vw;
+    overflow: hidden;
+}
+.container{
+    height: 45vw;
+}
 .spotify-logo{
     margin: 5px;
     padding: 2px;
@@ -22,7 +29,7 @@
 .home-icon-border{
         background-color: #1f1f1f;
         border-radius: 100%;
-        margin-right: -250px;
+        margin-right: -80px;
 }
 
 .login{
@@ -67,6 +74,7 @@
     border-radius: 7px;
    flex-direction: row;
     display: flex;
+    height: 80vh;
 }
 
 .left{
@@ -74,14 +82,16 @@
     margin: 10px;
     border: 2px #121212;
     border-radius: 7px;
+    height: 80vh;
 }
 .right{
     max-width: 75vw;
     margin: 10px;
-    border: 2px red;
     border-radius: 7px;
     display: flex;
     align-content: start;
+    flex-direction: column;
+    height: 80vh;
 }
 
 .library{
@@ -119,7 +129,7 @@
     border: 2px solid #121212;
     background-color: #121212;
     padding-top: 10px;;
-    overflow-y: auto;
+    overflow-y: scroll;
     height: 200px;
     border-radius: 12px;
     display: flex;
@@ -187,35 +197,101 @@
     justify-content: start;
     box-sizing: border-box;
     flex-wrap: wrap;
-    margin-bottom: 20px;
-    margin-top: 70px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-left: 10px;
 }
 
 .privacy1{
-    margin: 10px;
-    padding: -50px;
+    margin: 5px;
+    padding: -25px;
     background-color: #121212;
 }
 
 .right-main{
     display: flex;
     justify-content: center;
-    flex-direction: auto;
+    flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
     box-sizing: border-box;
     flex: 2;
+    margin-right: 2px;
+    margin-bottom: 2px;
 }
 
 .right-border{
     overflow-y: scroll;
-    height: 50em;
+    height: 26em;
+    margin-top: 20px;
+    margin-right: 5px;
+    padding-bottom: 2px;
 }
 
 .item{
     display: flex;
-    border: 2px solid red;
-    margin: 12px;
-    height: 14em;
-    width: 14em;
+    border: 2px solid #121212;
+    height: 12em;
+    width: 10em;
+    background-color: #1f1f1f;
+    border-radius: 7px;
+    padding: 2px;
+    margin: 5px;
+    margin-top: 5px;
+}
+
+.item-inner-div{
+    border: 1px ;
+    display: flex;
+    width: 160px;
+    flex-direction: column;
+    background-color: rgb(17, 15, 15);
+}
+.up{
+    padding: 14px;
+    margin-bottom: 5px;
+    color: rgb(139, 127, 127);
+    
+}
+@keyframes item-inner-div{
+    from{ color: rgb(17, 15, 15);}
+    to{
+        color: white;
+    }
+}
+.down{
+    border: 1px solid brown;
+    padding: 16px;
+}
+
+.image{
+    border: 2px;
+    border-radius: 8px;
+    width: 8em;
+    margin-right: 2px;
+    height: 6em;
+  
+}
+
+.main-footer{
+    color:#121212;
+    background-color: black;
+    border: 2px solid olivedrab;
+    margin: 50px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.lower-a{
+    color: white;
+    background-color: blue;
+    padding: 2px;
+    margin: 2px;
+    
+}
+
+ul{
+    list-style: none;
 }
