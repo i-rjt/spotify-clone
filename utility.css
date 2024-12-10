@@ -56,3 +56,7 @@
 .grid{
     display: grid;
 }
+
+ul li{
+    list-style: none;
+}
